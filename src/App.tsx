@@ -1,7 +1,13 @@
+import Button from "./components/Button";
 
 function App() {
-  return (
-    <h1>Hello World!</h1>
+  return (<>
+      <Button variant='primary'/>
+      <Button variant='secondary'/>
+      <Button variant='sucess'/>
+      <Button variant='danger'/>
+      <Button/>
+  </>
   );
 }
 
